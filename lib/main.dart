@@ -62,26 +62,26 @@ class MyApp extends StatelessWidget {
       }
     ];
 
-    List profileImage = [
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/301",
-      "https://picsum.photos/200/302",
-      "https://picsum.photos/200/303",
-      "https://picsum.photos/200/304",
-    ];
-    List imageview = [
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/301",
-      "https://picsum.photos/200/302",
-      "https://picsum.photos/200/303",
-      "https://picsum.photos/200/304",
-    ];
-    List names = ["amal", "sajal", "dinu", "clince", "anoob"];
+    // List profileImage = [
+    //   "https://picsum.photos/200/300",
+    //   "https://picsum.photos/200/301",
+    //   "https://picsum.photos/200/302",
+    //   "https://picsum.photos/200/303",
+    //   "https://picsum.photos/200/304",
+    // ];
+    // List imageview = [
+    //   "https://picsum.photos/200/300",
+    //   "https://picsum.photos/200/301",
+    //   "https://picsum.photos/200/302",
+    //   "https://picsum.photos/200/303",
+    //   "https://picsum.photos/200/304",
+    // ];
+    // List names = ["amal", "sajal", "dinu", "clince", "anoob"];
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: PageView.builder(
-          scrollDirection: Axis.horizontal,
+          scrollDirection: Axis.vertical,
           itemBuilder: (context, index) => Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
